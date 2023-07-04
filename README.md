@@ -20,17 +20,20 @@ I first need to learn about machine learning algorithms and how to implement the
 
 ## Notes on machine learning algorithms
 
+- These notes are mostly from Davide Chicco's 2017 publication in BioData Mining
 - There are many!
 - Broadly categorized into supervised (where features and labels of the training set are known) and unsupervised (where only features of training data are known)
     - The data we have is fully labeled - I know the disease outcome of every patient in the training dataset
     - I will likely use a supervised algorithm to classify disease outcome (label) based on input features
-- Simplest supervised algorithm is k-means
+- Simplest supervised algorithm is k-nearest neighbors (k-NN)
 - SVM seems like a highly tractable approach for this type of problem
+- Random forests is an alternative supervised learning method
 
 ## Notes on organization
 
 - I have a zotero library in my library for this project
 - All of my progress will be under version control via Github
     - I will make this a public repository with an MIT license from the start as long as the data is public
-- I will need to document everything super well, as I will be doing this as a side project during medical school and will likely have long stretches when I'm not thinking about it at all
+- I will need to document everything super well
+    - I will be doing this as a side project during medical school and will likely have long stretches when I'm not thinking about it at all
 
